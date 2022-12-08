@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v -type f -name "*%" /etc/passwd
+find -maxdepth 1 -v /etc/ssh/sshd_config
