@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -type f -name "*%" -i /etc/passwd
+grep -i -type f -name "*%" /etc/passwd
